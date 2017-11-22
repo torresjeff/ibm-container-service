@@ -1,5 +1,5 @@
 #!/bin/bash
-if [ "${PWD##*/}" == "create" ]; then
+if [ "${PWD##*/}" == "delete" ]; then
     KUBECONFIG_FOLDER=${PWD}/../../kube-configs
 elif [ "${PWD##*/}" == "scripts" ]; then
     KUBECONFIG_FOLDER=${PWD}/../kube-configs
